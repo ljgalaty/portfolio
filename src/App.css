@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'glacial_indifferenceregular';
+  src: url('./config/fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+       url('./config/fonts/glacialindifference-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+};
