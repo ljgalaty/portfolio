@@ -6,6 +6,7 @@ export const Header = styled.h1 `
     font-size: 75px;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
     &:hover {
         color: ${props => props.theme.darkSeaGreen};
   }

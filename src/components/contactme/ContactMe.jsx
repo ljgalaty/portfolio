@@ -1,9 +1,11 @@
 import React from 'react';
-import {Footer} from './StyledContactMe';
+import {Header} from '../template/Header';
+import {Page} from '../template/Page';
 
 export const ContactMe = () => {
     return (
         <>
-            <Footer id="contactme">Let's Get In Touch!</Footer>
+        <Header id="contactme">Let's Get in Touch!</Header>
+        <Page></Page>
         </>)
 }

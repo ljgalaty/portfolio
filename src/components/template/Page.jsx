@@ -6,7 +6,7 @@ import Resumepic from '../../images/Resume.png';
 
 export const Page = styled.div `
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     background-image: url(${props => 
         props.welcome ? Welcome 
         : props.headshot ? Headshot
@@ -14,10 +14,8 @@ export const Page = styled.div `
         : Resumepic
         });
     background-size: 100%;
-    opacity: 0.5;
     background-color: ${props => props.theme.ashGray};
     border-top-style: solid;
     border-color: ${props => props.theme.charcoal};
     border-width: 10px;
-    /* overflow-y: hidden; */
 `
