@@ -6,7 +6,6 @@ export const Resume = () => {
     return (
         <>
             <Header id="resume">Resume</Header>
-            <Page >
-            </Page>
+            <Page resume ></Page>
         </>)
 }

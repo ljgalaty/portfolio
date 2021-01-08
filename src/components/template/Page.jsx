@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import Headshot from '../../images/HeadShot.jpg'
 import HomeOffice from '../../images/projects_background.jpg';
 import Welcome from '../../images/WelcomeImage.jpg';
-import Resumepic from '../../images/Resume.png';
+import Resumepic from '../../images/resume-background.jpg';
+import ContactMe from '../../images/contactme.jpg';
 
 export const Page = styled.div `
     height: 100vh;
@@ -11,7 +12,8 @@ export const Page = styled.div `
         props.welcome ? Welcome 
         : props.headshot ? Headshot
         : props.homeoffice ? HomeOffice
-        : Resumepic
+        : props.resume ? Resumepic
+        : ContactMe
         });
     background-size: 100%;
     background-color: ${props => props.theme.ashGray};
