@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar, Navbuttons} from './StyledNavigation';
+import { HashLink } from 'react-router-hash-link';
 
 
 export const Navigation = () => {
