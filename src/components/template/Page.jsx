@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Headshot from '../../images/HeadShot.jpg'
 import HomeOffice from '../../images/projects_background.jpg';
-import Welcome from '../../images/WelcomeImage.jpg';
+// import Welcome from '../../images/WelcomeImage.jpg';
 import Resumepic from '../../images/resume-background.jpg';
 import ContactMe from '../../images/contactme.jpg';
 
@@ -9,8 +9,8 @@ export const Page = styled.div `
     height: 100vh;
     width: 100vw;
     background-image: url(${props => 
-        props.welcome ? Welcome 
-        : props.headshot ? Headshot
+        // props.welcome ? ContactMe 
+        props.headshot ? Headshot
         : props.homeoffice ? HomeOffice
         : props.resume ? Resumepic
         : ContactMe
