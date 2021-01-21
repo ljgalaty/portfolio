@@ -2,27 +2,37 @@ import styled from 'styled-components';
 import {HashLink} from 'react-router-hash-link'
 
 export const Navbar = styled.div `
-    padding: 15px;
-    background-color: ${props => props.theme.darkSeaGreen} !important;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: ${props => props.theme.atomicTangerine} !important;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    border-color: ${props => props.theme.hookersGreen};
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    border-top-style: solid;
-    border-color: ${props => props.theme.charcoal};
-    border-width: 15px;
+    z-index: 10;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        padding-left: 10px;
+        
+    }
+    @media(min-width: 601px) {
+        flex-wrap: wrap;
+    }
 `;
 
 export const Navbuttons = styled(HashLink)`
     text-decoration: none !important;
     color: ${props => props.theme.charcoal};
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'glacial_indifferenceregular';
     &:hover {
-        color: ${props => props.theme.ashGray};
-        border-bottom: solid ${props => props.theme.ashGray};
+        color: white;
+    }
+    @media(max-width: 600px) {
+        
     }
 `;

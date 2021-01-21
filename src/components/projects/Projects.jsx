@@ -1,12 +1,22 @@
 import React from 'react';
-import {Header} from '../template/Header';
-import {Page} from '../template/Page';
+import {ProjectsBody, Card, CardContainer, ProjectText} from './StyledProjects';
 
 export const Projects = () => {
     return (
         <>
-            <Header id="projects">Projects</Header>
-            <Page homeoffice>
-            </Page>
+            <ProjectsBody id="projects">
+                <Card>
+                    <CardContainer>
+                        Stretch It Out
+                    </CardContainer>
+                </Card>
+                <Card>
+                    <CardContainer>
+                        Byrd Song
+                    </CardContainer>
+                </Card>
+                <ProjectText>Check Out My Projects</ProjectText>
+            </ProjectsBody>
+            
         </>)
 }
