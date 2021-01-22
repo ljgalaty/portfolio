@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProjectsBody, Card, CardContainer, ProjectText} from './StyledProjects';
+import {ProjectsBody, ProjectText} from './StyledProjects';
 import { motion } from "framer-motion";
 import StretchLogo from "../../images/StretchLogo.png";
 import ByrdLogo from "../../images/Byrd.png";

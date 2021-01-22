@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Proj_Background from '../../images/projects_background.jpg';
 import Resume_Background from '../../images/resume-background.jpg';
 
 
