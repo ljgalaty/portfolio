@@ -37,7 +37,7 @@ export const Projects = () => {
             transition={{ duration: 0.7 }}
           >
             <div key = {index} className="image-container">
-              <img src={site.logo} />
+              <img src={site.logo} alt=""/>
               <a href={site.link} target="_blank" rel="noreferrer">
                 <img className="transition-image" src={site.image} alt={site.alt}/>
               </a>
