@@ -8,11 +8,12 @@ export const ContactMe = () => {
         <>
         <Background id="contactme">
             <DownloadDiv>
-                <Download href="https://github.com/ljgalaty"> Click here to see my GitHub Profilie</Download>
+                <Download href="https://github.com/ljgalaty">See my GitHub Profile</Download>
                 
-                <Download href="https://www.linkedin.com/in/laurelgalaty/"> Click here to see my LinkedIn</Download>
+                <Download href="https://www.linkedin.com/in/laurelgalaty/">See my LinkedIn</Download>
 
-                <Download href={ResumePDF} download> Click here to download my resume</Download>
+                <Download href={ResumePDF} download>Download my Resume</Download>
+                <Download href="mailto:laurel.galaty@gmail.com">Email Me</Download>
             </DownloadDiv>
         </Background>
         </>)

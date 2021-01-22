@@ -1,11 +1,14 @@
 import styled from 'styled-components';
-import contactme from '../../images/contact-me-sand.jpg';
+import contactme from '../../images/contactmesand.jpg';
 
 export const Download = styled.a `
     font-family: 'glacial_indifferenceregular';
-    font-size: 20px;
+    font-size: 35px;
     text-decoration: none;
     color: ${props => props.theme.charcoal};
+    display: flex;
+    justify-content: space-around;
+
 `;
 
 export const DownloadDiv = styled.div `
