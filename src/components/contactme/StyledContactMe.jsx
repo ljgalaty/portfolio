@@ -11,6 +11,9 @@ export const Download = styled.a `
     &:hover {
         color: white;
     }
+    @media (max-width: 600px) {
+        font-size: 6vw;
+    }
 `;
 
 export const DownloadDiv = styled.div `

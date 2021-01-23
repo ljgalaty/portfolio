@@ -1,11 +1,11 @@
 import React from 'react';
 import {Pic, Greeting, MainDiv, Hi, HiHi} from './StyledHome';
-import headShot from '../../images/HeadShot.jpg';
+
 
 export const Home = () => {
     return (
         <MainDiv>
-            <Pic src={headShot} />
+            
 
             <Greeting>
                 <Hi>Hi I'm Laurel</Hi>

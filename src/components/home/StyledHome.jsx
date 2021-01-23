@@ -1,4 +1,5 @@
 import styled, {keyframes} from 'styled-components';
+import headShot from '../../images/HeadShot.jpg';
 
 export const SlideIn = keyframes`
     0% {
@@ -42,8 +43,9 @@ export const Greeting = styled.div `
     font-size: 18px;
     @media (max-width: 600px) {
         right: 5%;
-        top: 15%;
+        top: 50%;
         padding: 15px;
+        width: 80%;
     }
     @media (min-width: 768px) {
       right: 5%;
@@ -52,16 +54,27 @@ export const Greeting = styled.div `
 `
 
 export const MainDiv = styled.div`
+    width: 100vw;
+    height: 100vh;
     display: flex;
     font-family: 'glacial_indifferenceregular';
     border: solid white;
     border-width: 5px;
+    background-image: url(${headShot});
+    background-size: cover;
+
 `
 
 export const Hi = styled.h1`
   font-size: 4vw;
+  @media (max-width: 600px) {
+        font-size: 10vw;
+    }
 `
 
 export const HiHi = styled.h2`
   font-size: 2vw;
+  @media (max-width: 600px) {
+        font-size: 7vw;
+    }
 `

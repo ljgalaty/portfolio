@@ -4,6 +4,7 @@ import Resume_Background from '../../images/resume-background.jpg';
 
 export const ProjectText = styled.h1 `
     font-family: 'glacial_indifferenceregular';
+    color: ${props => props.theme.charcoal};
     font-size: 4vw;
     max-width: 40vw;
     background-color: ${props => props.theme.atomicTangerine};
@@ -13,6 +14,8 @@ export const ProjectText = styled.h1 `
     margin-left: 3vw;
     @media (max-width: 600px) {
         margin-top: 20vw;
+        padding: 30px;
+        font-size: 7vw;
     }
 `
 
