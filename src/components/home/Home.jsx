@@ -1,5 +1,5 @@
 import React from 'react';
-import {Pic, Greeting, MainDiv, Hi, HiHi} from './StyledHome';
+import { Greeting, MainDiv, Hi, HiHi} from './StyledHome';
 
 
 export const Home = () => {
