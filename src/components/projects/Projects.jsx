@@ -28,7 +28,7 @@ export const Projects = () => {
     return (
         <>
             <ProjectsBody id="projects">
-                
+            <ProjectText>Check Out My Projects</ProjectText>   
             <div className="project-list">
                 {sites.map((site, index) => (
             <motion.div
@@ -46,17 +46,6 @@ export const Projects = () => {
           </motion.div>
         ))}
       </div>
-      {/* <Card>
-                    <CardContainer>
-                        Stretch It Out
-                    </CardContainer>
-                </Card>
-                <Card>
-                    <CardContainer>
-                        Byrd Song
-                    </CardContainer>
-                </Card> */}
-                <ProjectText>Check Out My Projects</ProjectText>
             </ProjectsBody>
             
         </>)

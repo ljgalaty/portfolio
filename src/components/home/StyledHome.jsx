@@ -40,6 +40,15 @@ export const Greeting = styled.div `
     border-width: 5px;
     color: ${props => props.theme.charcoal};
     font-size: 18px;
+    @media (max-width: 600px) {
+        right: 5%;
+        top: 15%;
+        padding: 15px;
+    }
+    @media (min-width: 768px) {
+      right: 5%;
+      top: 50%
+    }
 `
 
 export const MainDiv = styled.div`
@@ -47,4 +56,12 @@ export const MainDiv = styled.div`
     font-family: 'glacial_indifferenceregular';
     border: solid white;
     border-width: 5px;
+`
+
+export const Hi = styled.h1`
+  font-size: 4vw;
+`
+
+export const HiHi = styled.h2`
+  font-size: 2vw;
 `

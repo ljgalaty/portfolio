@@ -4,12 +4,16 @@ import Resume_Background from '../../images/resume-background.jpg';
 
 export const ProjectText = styled.h1 `
     font-family: 'glacial_indifferenceregular';
-    font-size: 45px;
+    font-size: 4vw;
     max-width: 40vw;
     background-color: ${props => props.theme.atomicTangerine};
     padding: 50px;
     border: solid white;
     border-width: 5px;
+    margin-left: 3vw;
+    @media (max-width: 600px) {
+        margin-top: 20vw;
+    }
 `
 
 export const ProjectsBody = styled.div `
@@ -20,6 +24,10 @@ export const ProjectsBody = styled.div `
     align-items: center;
     background-image: url(${Resume_Background});
     background-size: cover;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        padding-left: 10px;
+    }
 `
 
 export const Card = styled.div `

@@ -15,8 +15,7 @@ export const Navbar = styled.div `
     z-index: 10;
 
     @media (max-width: 600px) {
-        flex-direction: column;
-        padding-left: 10px;
+        display: none;
         
     }
     @media(min-width: 601px) {
@@ -33,6 +32,6 @@ export const Navbuttons = styled(HashLink)`
         color: white;
     }
     @media(max-width: 600px) {
-        
+        font-size: 7vw;
     }
 `;
